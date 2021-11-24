@@ -1,0 +1,35 @@
+@import "reset.css";
+
+@import "top-section.css";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap')
+	;
+
+@import "services.css";
+
+@import "portfolio-section.css";
+
+@import "experience-section.css";
+
+@import "blog-section.css";
+
+@import "testimonials-section.css";
+
+@import "footer-section.css";
+
+.container {
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+/* -----for tablet-------- */
+@media only screen and (max-width:960px) {
+	.container {
+		width: 100%;
+	}
+}
+
+/* -----for phones-------- */
+@media only screen and (max-width:767px) {
+}
