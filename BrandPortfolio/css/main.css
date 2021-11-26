@@ -23,6 +23,89 @@
 	margin: 0 auto;
 }
 
+header {
+	display: flex;
+	padding: 20px;
+	justify-content: space-between;
+}
+
+header .logo {
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mobile-menu {
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	top: 0;
+	padding: 40px 0;
+	position: absolute;
+	height: 100vh;
+	width: 50%;
+	z-index: 10;
+	transform: translate3d(-100%, 0, 0);
+	transition: all .4s ease-in-out;
+	-webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.68);
+	box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.68);
+}
+
+.mobile-menu .active {
+	transform: translate3d(0, 0, 0);
+}
+
+.mobile-menu a {
+	color: black;
+	text-decoration: none;
+	padding: 15px;
+}
+
+.mobile-menu a:hover {
+	color: white;
+	background: #ff5253;
+}
+
+header .logo .name {
+	background: black;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+header .header-menu a {
+	font-size: 1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+header .header-menu a:hover {
+	font-weight: 700;
+	color: #ff5253;
+}
+
+header  .menu-btn {
+	font-weight: 700;
+	color: #ff5253;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	font-size: 2rem;
+	display: none;
+	cursor: pointer;
+}
+
+header .header-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 /* -----for tablet-------- */
 @media only screen and (max-width:960px) {
 	.container {
@@ -32,4 +115,13 @@
 
 /* -----for phones-------- */
 @media only screen and (max-width:767px) {
+	header  .menu-btn {
+		display: flex;
+	}
+	header .header-menu {
+		display: none;
+	}
+	header .logo {
+		font-size: 1rem;
+	}
 }

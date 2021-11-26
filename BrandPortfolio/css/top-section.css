@@ -72,18 +72,24 @@
 
 /* -----for tablet-------- */
 @media only screen and (max-width:960px) {
+	
+	#top .container {
+		padding: 0 0 80px;
+	}
+	#top .img .background-img {
+		height: 100vh;
+	}
 }
 
 /* -----for phones-------- */
 @media only screen and (max-width:767px) {
-	#top .info .blue-square {
+	#top .info #blue-square {
 		display: none;
 	}
 	#top .container {
-		padding: 0 15px 80px;
+		padding: 0 0 80px;
 	}
-	
-	#top .img .background-img{
-	height:100vh;
+	#top .img .background-img {
+		height: 100vh;
 	}
 }

@@ -129,17 +129,44 @@
 	color: #ff5253;
 }
 
-#experience-section .experience-container .large-icons .triangle .triangle-box .text{
+#experience-section .experience-container .large-icons .triangle .triangle-box .text
+	{
 	position: relative;
-	top:98px;
-	left:-29px;
+	top: 98px;
+	left: -29px;
 }
 
 /* -----for tablet-------- */
 @media only screen and (max-width:960px) {
-	
+	#experience-section .experience-container .large-icons .square {
+		border: 20px solid #52b8ff;
+		padding: 5px;
+		display: inline-block;
+		position: relative;
+		top: 122px;
+		left: 48px;
+	}
+	#experience-section .experience-container .large-icons {
+		position: relative;
+		top: -17px;
+	}
+	#experience-section .large-title {
+		left: 0;
+	}
 }
 
 /* -----for phones-------- */
 @media only screen and (max-width:767px) {
+	#experience-section .large-title {
+		font-size: 3rem;
+		left: 0;
+	}
+	#experience-section .experience-container .large-icons {
+		display: none;
+	}
+	#experience-section .experience-container {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-gap: 20px;
+	}
 }

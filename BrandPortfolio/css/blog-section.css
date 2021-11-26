@@ -95,16 +95,26 @@
 }
 
 #blog-section .blog-container .post:hover .more .button {
-	opacity:1;
+	opacity: 1;
 	color: #ff5253;
 	transform: translate3d(0, 0, 0);
 }
 
 /* -----for tablet-------- */
 @media only screen and (max-width:960px) {
-	
+	#blog-section .blog-container {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 588px 588px 588px;
+	}
 }
 
 /* -----for phones-------- */
 @media only screen and (max-width:767px) {
+	#blog-section .title h1 {
+		font-size: 3rem;
+	}
+	#blog-section .blog-container {
+		grid-template-columns: 1fr;
+		grid-template-rows: 400px 400px 400px 400px 400px 400px;
+	}
 }
