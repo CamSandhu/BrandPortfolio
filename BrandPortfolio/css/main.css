@@ -1,22 +1,24 @@
 @import "reset.css";
 
-@import "top-section.css";
+@import "landing-page/top-section.css";
 
 @import
 	url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap')
 	;
 
-@import "services.css";
+@import "landing-page/services.css";
 
-@import "portfolio-section.css";
+@import "landing-page/portfolio-section.css";
 
-@import "experience-section.css";
+@import "landing-page/experience-section.css";
 
-@import "blog-section.css";
+@import "landing-page/blog-section.css";
 
-@import "testimonials-section.css";
+@import "landing-page/testimonials-section.css";
 
 @import "footer-section.css";
+
+@import "portfolio/portfolio-projects.css";
 
 .container {
 	max-width: 1150px;
@@ -40,21 +42,21 @@ header .logo {
 
 .mobile-menu {
 	background: #fff;
-	display: flex;
+	display: none;
 	flex-direction: column;
 	top: 0;
 	padding: 40px 0;
 	position: absolute;
 	height: 100vh;
 	width: 50%;
-	z-index: 10;
-	transform: translate3d(-100%, 0, 0);
+	z-index: 3;
+	transform: translate3d(-107%, 0, 0);
 	transition: all .4s ease-in-out;
 	-webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.68);
 	box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.68);
 }
 
-.mobile-menu .active {
+ .active {
 	transform: translate3d(0, 0, 0);
 }
 
@@ -123,5 +125,8 @@ header .header-menu {
 	}
 	header .logo {
 		font-size: 1rem;
+	}
+	.mobile-menu{
+	display: flex;
 	}
 }

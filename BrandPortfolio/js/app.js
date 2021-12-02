@@ -7,4 +7,4 @@ var clickedBtn = function() {
 
 menuBtn[0].addEventListener('click', clickedBtn)
 
-console.log(menuBtn[0])
+console.logo(menuBtn[0])
