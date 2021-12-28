@@ -136,8 +136,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image2 .image {
-	background:
-		url('../../img/todo.jpg');
+	background: url('../../img/todo.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -184,8 +183,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image5 .image {
-	background:
-		url('https://ichef.bbci.co.uk/news/976/cpsprodpb/37B5/production/_89716241_thinkstockphotos-523060154.jpg');
+	background: url('../../img/weather.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -200,8 +198,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image6 .image {
-	background:
-		url('../../img/coronavirus-tracker.jpg');
+	background: url('../../img/coronavirus-tracker.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -300,8 +297,7 @@
 	#portfolio-section .portfolio-container .box.image6 {
 		grid-column: 1/4;
 		grid-row: 6/7;
-		background:
-		url('../../img/coronavirus-tracker-mobile.jpg');
+		background: url('../../img/coronavirus-tracker-mobile.jpg');
 		background-size: contain;
 	}
 	#portfolio-section .portfolio-container .box.image7 {
@@ -309,4 +305,3 @@
 		grid-row: 7/8;
 	}
 }
-
