@@ -121,8 +121,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image1 .image {
-	background:
-		url('https://processing.org/static/923ff00860f6392e4b92e0318aab22e9/aeb79/Random.png');
+	background: url('../../img/wasd.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -138,7 +137,7 @@
 
 #portfolio-section .portfolio-container .box.image2 .image {
 	background:
-		url('https://cdn.custom-cursor.com/cursors/random_pixel.png');
+		url('../../img/todo.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -202,7 +201,7 @@
 
 #portfolio-section .portfolio-container .box.image6 .image {
 	background:
-		url('https://www.mentalhealth.org.uk/sites/default/files/50%20random%20acts%20of%20kindness%2Cjpg_0.jpg');
+		url('../../img/coronavirus-tracker.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -237,7 +236,7 @@
 	#portfolio-section .portfolio-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px  ;
+		grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
 		grid-gap: 10px;
 	}
 	#portfolio-section .portfolio-container .box.image1 {
@@ -275,7 +274,7 @@
 	#portfolio-section .portfolio-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 150px 150px 150px 150px 150px 150px 150px  ;
+		grid-template-rows: 150px 150px 150px 150px 150px 150px 150px;
 		grid-gap: 10px;
 	}
 	#portfolio-section .portfolio-container .box.image1 {
@@ -301,9 +300,13 @@
 	#portfolio-section .portfolio-container .box.image6 {
 		grid-column: 1/4;
 		grid-row: 6/7;
+		background:
+		url('../../img/coronavirus-tracker-mobile.jpg');
+		background-size: contain;
 	}
 	#portfolio-section .portfolio-container .box.image7 {
 		grid-column: 1/4;
 		grid-row: 7/8;
 	}
 }
+
