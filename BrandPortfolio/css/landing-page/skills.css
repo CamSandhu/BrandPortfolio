@@ -1,6 +1,7 @@
 .list-group-item .border-0 {
 	list-style-type: disc ;
 	padding-left: 1rem;
+	color:red;
 }
 
 #services {
