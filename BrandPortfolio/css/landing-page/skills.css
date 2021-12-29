@@ -1,4 +1,4 @@
-.services-container .list-group-item .border-0 {
+.services-container .list-group-item::before {
 	list-style-type: disc ;
 	padding-left: 1rem;
 	color:red;
