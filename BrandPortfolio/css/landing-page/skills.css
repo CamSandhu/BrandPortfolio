@@ -1,6 +1,6 @@
 .services-container ul li {
 	list-style-type: disc;
-	padding-left: 1rem;
+	padding: 1rem ;
 	margin: 10px 0;
 	font-size: 1 rem;
 }
@@ -8,6 +8,7 @@
 .services-container ul {
 	display: table;
 	margin: 0 auto;
+	padding-left: 1rem;
 }
 
 
