@@ -20,6 +20,10 @@
 
 @import "portfolio/portfolio-projects.css";
 
+@import "landing-page/skills.css";
+
+
+
 .container {
 	max-width: 1150px;
 	margin: 0 auto;
