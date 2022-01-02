@@ -1,6 +1,6 @@
 .services-container ul li {
 	list-style-type: disc;
-	padding: 0.5rem ;
+	padding: 0.5rem;
 	margin: 10px 0;
 	font-size: 1 rem;
 }
@@ -10,7 +10,29 @@
 	margin: 0 auto;
 	padding-left: 1rem;
 }
+#services .container {
+	position: relative;
+}
+.left-triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 200px 0 0 200px;
+	border-color: transparent transparent transparent rgba(255, 190, 86, 0.5);
+	position: absolute;
+	top:70%;
+	left:20%;
+}
 
+.right-triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 200px 200px 0;
+	border-color: transparent rgba(163, 252, 85, 0.5)transparent transparent;
+	position: absolute;
+	right:20%;
+}
 
 #services {
 	padding: 80px 15px;
@@ -46,9 +68,7 @@
 }
 
 #services .services-container {
-	
-	   justify-content: center;
-	
+	justify-content: center;
 }
 
 #services .services-container .box {
@@ -104,6 +124,13 @@
 		background: rgba(255, 255, 255, 1);
 		-webkit-box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.35);
 		box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.35);
+	}
+	.right-triangle{
+	right: 5%;
+	}
+	
+	.left-triangle{
+	 left:5%;
 	}
 }
 

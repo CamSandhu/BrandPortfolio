@@ -1,5 +1,5 @@
 #blog-section {
-	margin: 80px 0;
+	margin: 60px 0;
 	align-content: center;
 }
 
@@ -54,7 +54,7 @@
 	font-size: 4.5rem;
 	margin-bottom: 80px;
 	text-transform: uppercase;
-	font-weight: 700px;
+	font-weight: 600px;
 	text-align: center;
 }
 
@@ -104,6 +104,8 @@
 	margin-bottom: 1.8rem;
 	line-height: 1.5;
 }
+
+
 
 #blog-section .blog-container .post  .more {
 	position: absolute;
@@ -172,8 +174,8 @@
 	}
 	#blog-section .container {
 		justify-content:center; 
-		padding-left: 2rem;
-		padding-right: 2rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
 	}
 	.circles-line img {
 		display: none;
@@ -181,6 +183,7 @@
 	#blog-section .container p {
 		position: inherit;
 		width: 100%;
+		padding: 0.3rem;
 	}
 	#blog-section .container .education-1 {
 		text-align: center;
@@ -211,12 +214,15 @@
 		grid-row: 4/5;
 		border:2px solid  black;
 	}
+	
+	
+	
 	.circles-line {
 		padding-left: 1rem;
 		padding-right: 1rem;
 		display: grid;
 		grid-template-columns: auto auto;
-		grid-template-rows: 150px 150px 150px 150px ;
+		grid-template-rows: 160px 160px 160px 160px ;
 	
 		justify-content: center;
 		column-gap: 0;
