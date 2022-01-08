@@ -14,7 +14,7 @@
 
 @import "landing-page/blog-section.css";
 
-@import "landing-page/testimonials-section.css";
+/* @import "landing-page/testimonials-section.css"; */
 
 @import "footer-section.css";
 
@@ -22,7 +22,7 @@
 
 @import "landing-page/skills.css";
 
-
+@import "landing-page/contact-form.css";
 
 .container {
 	max-width: 1150px;
