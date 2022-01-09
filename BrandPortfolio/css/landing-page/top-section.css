@@ -16,7 +16,7 @@
 
 #top .info p {
 	color: #919191;
-	text-transform: capitalize;
+	line-height:1.4rem;
 	margin-bottom: 4rem;
 }
 

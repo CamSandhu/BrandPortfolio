@@ -70,6 +70,11 @@
 	margin-top: 140px;
 }
 
+
+#testimonials-section #my-form-status{
+	text-align: center;
+    padding:3rem;
+}
 /* -----for tablet-------- */
 @media only screen and (max-width:960px) {
 	#services .services-container {
@@ -81,6 +86,8 @@
 		box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.35);
 	}
 }
+
+
 
 /* -----for phones-------- */
 @media only screen and (max-width:767px) {
