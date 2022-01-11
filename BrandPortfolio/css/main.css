@@ -69,9 +69,9 @@ header .logo {
 }
 
 .mobile-menu a {
-	color: black;
 	text-decoration: none;
 	padding: 15px;
+	color:black;
 }
 
 .mobile-menu a:hover {
@@ -87,6 +87,7 @@ header .logo .name {
 }
 
 header .header-menu a {
+	color:black;
 	font-size: 1rem;
 	text-transform: uppercase;
 	text-decoration: none;
